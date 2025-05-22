@@ -1,0 +1,17 @@
+[project]
+name = "amazon_widlfire_risk_mba_spring_2025"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = "~=3.13"
+dependencies = [
+    "overpy>=0.7",
+    "geopandas",
+    "xarray",
+    "zarr",
+    "xvec",
+    "ipykernel",
+    "matplotlib",
+    "fsspec",
+    "s3fs"
+]

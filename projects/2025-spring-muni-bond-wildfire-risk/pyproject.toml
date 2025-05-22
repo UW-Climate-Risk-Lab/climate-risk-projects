@@ -1,0 +1,28 @@
+[project]
+name = "muni"
+version = "0.1.0"
+description = "Utilities Muni Bond x Wildfire"
+readme = "README.md"
+requires-python = "~=3.13"
+dependencies = [
+    "cftime>=1.6.4.post1",
+    "dask>=2025.4.1",
+    "distributed>=2025.4.1",
+    "exactextract>=0.2.2",
+    "fsspec>=2025.3.2",
+    "geopandas>=1.0.1",
+    "h5netcdf>=1.6.1",
+    "matplotlib>=3.10.3",
+    "netcdf4>=1.7.2",
+    "requests>=2.32.3",
+    "rioxarray>=0.19.0",
+    "s3fs>=2025.3.2",
+    "xarray>=2025.4.0",
+    "xvec>=0.3.1",
+    "zarr>=3.0.7",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
