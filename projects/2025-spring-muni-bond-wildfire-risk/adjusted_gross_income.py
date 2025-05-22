@@ -27,7 +27,6 @@ BBOX = gpd.GeoDataFrame(
     crs='EPSG:4326'
 ).to_crs(CRS)
 
-
 def load_median_income_dataframe() -> pd.DataFrame:
     """
     Reads and concatenates median income CSV files from the specified directory.
